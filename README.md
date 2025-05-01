@@ -89,11 +89,12 @@ USER_PASSWORD=
 
 ## Usage
 
-1. Run `npm run dev` to start both backend and frontend concurrently (if configured).
-2. Open the browser at `http://localhost:5173`.
-3. Fill in the contact form fields and accept the privacy policy.
-4. Click **Submit** button.
-5. A confirmation will appear and the message will be sent to the configured email address.
+1. Run `npm run dev` to start client directory.
+2. Run `node server.js` or `nodemon server.js` to start root directory.
+3. Open the browser at `http://localhost:5173`.
+4. Fill in the contact form fields and accept the privacy policy.
+5. Click **Submit** button.
+6. A confirmation will appear and the message will be sent to the configured email address.
 
 ## Technologies Used
 
